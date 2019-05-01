@@ -30,9 +30,8 @@ class SongList extends Component {
 
 //function used to get data from redux store
 const mapStateToProps = state => {
-    console.log(state);
     return { songs: state.songs };
-}
+};
 
 export default connect(
     mapStateToProps, 
